@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar w/ text
+            Start Bootstrap
           </a>
           <button
             className="navbar-toggler"
@@ -28,17 +28,17 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  About
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Services
                 </a>
               </li>
             </ul>
             <span className="navbar-text">
-              Navbar text with an inline element
+              Contact
             </span>
           </div>
         </div>
