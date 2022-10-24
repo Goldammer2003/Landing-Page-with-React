@@ -1,10 +1,11 @@
 import React from "react"; 
 const Footer =  () => {
     return (
-        <div id= "Footer">
-            <span className="position-absolute top-50 start-50 translade-middle">Copyright your website</span>
-        </div>
+      <div className ="d-flex justify-content-center p-3 bg-dark">
+        <p className="text-white">Copyright@yourWEbsite2019</p>
+      </div>
+
     )
 }
 
-export default Footer
+export default Footer 

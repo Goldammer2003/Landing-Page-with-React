@@ -20,7 +20,7 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
@@ -36,10 +36,16 @@ function Navbar() {
                   Services
                 </a>
               </li>
+
+
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Contact
+                </a>
+              </li>
             </ul>
-            <span className="navbar-text">
-              Contact
-            </span>
+            
+            
           </div>
         </div>
       </nav>
